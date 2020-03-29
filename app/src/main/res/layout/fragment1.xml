@@ -1,0 +1,29 @@
+<?xml version="1.0" encoding="utf-8"?>
+<FrameLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:tools="http://schemas.android.com/tools"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    android:background="#ddf40606"
+    android:orientation="vertical"
+    tools:context="com.tca1701144.fragment3.assignment.Fragment1">
+
+    <Button
+        android:layout_width="match_parent"
+        android:layout_height="115dp"
+        android:backgroundTint="#462F68"
+        android:text="Next"
+        android:id="@+id/btnFragment1">
+
+    </Button>
+
+    <TextView
+        android:layout_width="match_parent"
+        android:layout_height="40dp"
+        android:layout_gravity="center"
+        android:fontFamily="serif-monospace"
+        android:text="This Is Fragment1"
+        android:textSize="39dp">
+
+    </TextView>
+
+</FrameLayout>
